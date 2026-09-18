@@ -1,0 +1,27 @@
+{
+  "name": "the-barkery-house",
+  "version": "1.0.0",
+  "description": "A full-stack ecommerce storefront for a fictional dog treat bakery, featuring dynamic products, cart management, coupons, Stripe Checkout, order fulfillment, and transactional emails.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "node",
+    "express",
+    "stripe",
+    "supabase"
+  ],
+  "author": "JeLaya Williamson",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.115.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "resend": "^6.27.0",
+    "stripe": "^22.6.1"
+  }
+}

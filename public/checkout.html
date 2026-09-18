@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Checkout | The Barkery House
+    </title>
+
+    <meta
+        name="description"
+        content="Complete your Barkery House order with secure checkout and fresh-made dog treats."
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+            THE BARKERY HOUSE
+        </a>
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation"
+        >
+            ☰
+        </button>
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="shop.html">
+                Shop
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="cart.html">
+                Cart
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="checkout-page">
+
+        <section class="checkout-header">
+
+            <p class="eyebrow">
+                SECURE CHECKOUT
+            </p>
+
+            <h1>
+                Complete Your Order
+            </h1>
+
+            <p>
+                Enter your information below to finish your Barkery House order.
+            </p>
+
+        </section>
+
+
+        <section class="checkout-layout">
+
+            <div class="checkout-form-panel">
+
+                <h2>
+                    Contact Information
+                </h2>
+
+                <div id="checkout-form-area">
+
+    <form id="checkout-form">
+
+        <div class="checkout-section">
+
+            <div class="form-group">
+
+                <label for="email">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                >
+
+                <p class="form-helper">
+                    Your order confirmation and tracking information will be sent here.
+                </p>
+
+            </div>
+            
+
+            <div class="checkout-name-grid">
+
+                <div class="form-group">
+
+                    <label for="first-name">
+                        First Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="first-name"
+                        name="firstName"
+                        autocomplete="given-name"
+                        required
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="last-name">
+                        Last Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="last-name"
+                        name="lastName"
+                        autocomplete="family-name"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+<div class="checkout-section shipping-section">
+
+    <div class="checkout-section-heading">
+        <h2>Shipping Address</h2>
+
+        <p>
+            Where should we send your pup's treats?
+        </p>
+    </div>
+
+    <div class="form-group">
+
+        <label for="address-line-1">
+            Street Address
+        </label>
+
+        <input
+            type="text"
+            id="address-line-1"
+            name="addressLine1"
+            autocomplete="shipping address-line1"
+            required
+        >
+
+    </div>
+
+    <div class="form-group">
+
+        <label for="address-line-2">
+            Apartment, Suite, Unit
+            <span class="optional">
+                (optional)
+            </span>
+        </label>
+
+        <input
+            type="text"
+            id="address-line-2"
+            name="addressLine2"
+            autocomplete="shipping address-line2"
+        >
+
+    </div>
+
+    <div class="checkout-city-grid">
+
+        <div class="form-group">
+
+            <label for="city">
+                City
+            </label>
+
+            <input
+                type="text"
+                id="city"
+                name="city"
+                autocomplete="shipping address-level2"
+                required
+            >
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="state">
+                State
+            </label>
+
+            <input
+                type="text"
+                id="state"
+                name="state"
+                autocomplete="shipping address-level1"
+                maxlength="2"
+                placeholder="GA"
+                required
+            >
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="postal-code">
+                ZIP Code
+            </label>
+
+            <input
+                type="text"
+                id="postal-code"
+                name="postalCode"
+                autocomplete="shipping postal-code"
+                inputmode="numeric"
+                required
+            >
+
+        </div>
+
+    </div>
+
+    <div class="form-group">
+
+        <label for="phone">
+            Phone Number
+        </label>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            autocomplete="tel"
+            required
+        >
+
+        <p class="form-helper">
+            Used only if there is an issue with your order or delivery.
+        </p>
+
+    </div>
+
+</div>
+<div class="checkout-actions">
+
+    <button
+        type="submit"
+        class="checkout-payment-button"
+        id="checkout-payment-button"
+    >
+        Continue to Payment
+    </button>
+
+    <p class="checkout-security-note">
+        Secure payment processing powered by Stripe.
+    </p>
+
+</div>
+    </form>
+
+</div>
+
+            </div>
+
+
+            <aside class="checkout-summary">
+
+                <p class="eyebrow">
+                    ORDER SUMMARY
+                </p>
+
+                <div id="checkout-summary-content">
+
+                    <p>
+                        Loading your cart...
+                    </p>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <script src="js/checkout.js"></script>
+
+</body>
+
+</html>

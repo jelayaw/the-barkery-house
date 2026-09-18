@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Shop freshly made dog treats from The Barkery House. Browse natural treats made fresh to order for your favorite pup."
+    >
+
+    <title>Shop Dog Treats | The Barkery House</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">
+            The Barkery House
+        </a>
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="main-navigation"
+        >
+            ☰
+        </button>
+
+        <nav
+            class="nav-links"
+            id="main-navigation"
+            aria-label="Main navigation"
+        >
+            <a href="index.html">Home</a>
+            <a href="shop.html" aria-current="page">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+    <main>
+
+        <section class="shop-hero">
+            <div class="container">
+
+                <section class="shop-hero">
+
+    <div class="shop-hero-image">
+        <img
+            src="images/shop-hero.webp"
+            alt="Happy dog beside a bowl of freshly made dog treats"
+            width="1920"
+            height="1080"
+            fetchpriority="high"
+        >
+    </div>
+
+    <div class="container shop-hero-content">
+
+        <p class="eyebrow">
+            FRESHLY MADE FOR YOUR BEST FRIEND
+        </p>
+
+        <h1>Shop Our Treats</h1>
+
+        <p class="shop-hero-description">
+            Simple ingredients. Fresh batches.
+            Plenty of tail-wagging approval.
+        </p>
+
+        <a href="#product-grid" class="hero-button">
+            Shop All Treats
+            <span aria-hidden="true">→</span>
+        </a>
+
+    </div>
+
+</section>
+        </section>
+<section class="benefit-strip">
+    <div class="container benefit-grid">
+
+        <div class="benefit">
+            <span class="benefit-icon">♡</span>
+            <div>
+                <h3>Made Fresh to Order</h3>
+                <p>Prepared especially for your pup.</p>
+            </div>
+        </div>
+
+        <div class="benefit">
+            <span class="benefit-icon">🌿</span>
+            <div>
+                <h3>Simple Ingredients</h3>
+                <p>Wholesome ingredients you can recognize.</p>
+            </div>
+        </div>
+
+        <div class="benefit">
+            <span class="benefit-icon">🐾</span>
+            <div>
+                <h3>Made With Love</h3>
+                <p>Because every pup deserves a treat.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <section class="shop-section">
+            <div class="container">
+
+                <div class="shop-heading">
+                    <p class="eyebrow">THE GOOD STUFF</p>
+                    <h2>Fresh From The Barkery</h2>
+                </div>
+
+                <!-- JavaScript will build our product cards here -->
+                <div
+                    id="product-grid"
+                    class="product-grid"
+                    aria-live="polite"
+                >
+                    <p>Loading treats...</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+<!-- ========================================
+     NEWSLETTER
+========================================= -->
+
+<section class="newsletter-section">
+
+    <div class="container newsletter-content">
+
+        <div class="newsletter-copy">
+
+            <p class="eyebrow">
+                JOIN THE BARKERY CLUB
+            </p>
+
+            <h2>Treats in Your Inbox.</h2>
+
+            <p>
+                Get fresh-batch updates, pup-approved news,
+                and special offers delivered straight to your inbox.
+            </p>
+
+        </div>
+
+
+        <form class="newsletter-form" id="newsletter-form">
+
+            <label for="newsletter-email" class="sr-only">
+                Email address
+            </label>
+
+            <input
+                type="email"
+                id="newsletter-email"
+                name="email"
+                placeholder="Enter your email address"
+                autocomplete="email"
+                required
+            >
+
+            <button type="submit">
+                Join the Pack
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================
+     FOOTER
+========================================= -->
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">
+                The Barkery House
+            </a>
+
+            <p>
+                Freshly made dog treats with simple ingredients
+                and plenty of tail-wagging approval.
+            </p>
+
+            <p class="footer-tagline">
+                Freshly baked. Tail-wagging approved.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Explore</h3>
+
+            <nav aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Customer Care</h3>
+
+           <nav aria-label="Customer care navigation">
+    <a href="faq.html">FAQ</a>
+    <a href="shipping.html">Shipping</a>
+    <a href="returns.html">Returns</a>
+    <a href="privacy.html">Privacy</a>
+</nav>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Follow the Pack</h3>
+
+            <div class="social-links" aria-label="Social media">
+    <span>Instagram</span>
+    <span>TikTok</span>
+    <span>Facebook</span>
+</div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <p>
+            &copy; 2026 The Barkery House.
+            All rights reserved.
+        </p>
+
+        <p>
+            Designed &amp; Developed by JeLaya Williamson
+        </p>
+
+    </div>
+
+</footer>
+
+    
+    
+
+
+    <script src="js/shop.js"></script>
+
+</body>
+</html>
