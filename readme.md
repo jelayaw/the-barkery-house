@@ -2,6 +2,12 @@
 
 The Barkery House is a full-stack ecommerce website for a fictional dog treat bakery, designed and developed by **JeLaya Williamson**.
 
+## 🌐 Live Demo
+
+🐾 **[Visit The Barkery House](https://the-barkery-house-production.up.railway.app)**
+
+> The live store uses Stripe's test environment for portfolio demonstration purposes. No real payments are processed.
+
 The project was built from scratch using HTML, CSS, JavaScript, Node.js, and Express, with Supabase for database management, Stripe Checkout for secure test payments, and Resend for transactional order and shipping emails.
 
 The store supports a complete ecommerce customer journey, including dynamic product pages, product variants, cart management, coupon discounts, server-side pricing, guest checkout, payment processing, order confirmation, and post-purchase fulfillment.
